@@ -63,7 +63,7 @@ T Stack<T, MAXSIZE>::top() const {
 }
 
 int main() {
-    Stack<int, 100> st;
+    ::Stack<int, 100> st;
     st.push(100);
     st.push(200);
     st.pop();
